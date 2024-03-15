@@ -17,9 +17,19 @@ export DEEPL_API_KEY=YOUR_DEEPL_API_KEY
 cargo run '<text_to_translate>' <source_language> <target_language> 
 For example, to translate "Hello, world!" from English to German, you would run:
 cargo run  'hello world' en de
+You can add an alias to your .bashrc or .zshrc file to make it easier to use.
+ex: lingo "is it possible to tell me what is wrong with you?" en fr
+
+
 
 ## Output
 The result is already copied to the clipboard, so you can paste it wherever you need it.
+
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
 
 
 
