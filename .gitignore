@@ -1,0 +1,28 @@
+# Ignore compiled binary files
+/target/
+
+# Ignore Cargo lock file
+Cargo.lock
+
+# Ignore macOS directory attributes
+.DS_Store
+
+# Ignore any artifacts created by editors
+**/*.rs.bk
+
+# Ignore any artifacts created by Cargo
+**/target
+
+# Ignore any artifacts created by IntelliJ IDEA
+.idea/
+
+# Ignore any artifacts created by Visual Studio Code
+.vscode/
+
+# Ignore Rover IDE workspace files
+.rover/
+
+# Ignore Rover IDE configuration files
+.rover.yml
+.rover.toml
+
